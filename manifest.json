@@ -1,0 +1,16 @@
+{
+   "app": {
+      "background": {
+         "pages": [ "html/embed.html" ],
+         "scripts": [ "js/background.js" ]
+      }
+   },
+   "description": "Spotify Crack!",
+   "icons": {
+      "128": "img/icon.png"
+   },
+   "manifest_version": 2,
+   "name": "Spotify",
+   "permissions": [ "webview", "fullscreen" ],
+   "version": "1.0"
+}
