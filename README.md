@@ -1,6 +1,6 @@
 # Spotify Crack - Chrome App
 
-> What's new: Removed all ads & premium upgrade button 🎉
+> What's new: Removed all ads, skip ads & removed premium upgrade button 🎉
 
 
 ![image](https://user-images.githubusercontent.com/13378059/64559212-58270800-d378-11e9-8280-47a9e051db8a.png)
@@ -13,4 +13,5 @@
 2. Make sure **Developer mode** (in the upper right corner) is ON.
 3. Drag & drop the folder that contains this repo there.
 4. Open Spotify Web and open chrome `Options > More Tools > Create Shortcut...`
-5. Open Spotify as App
+5. Check `Open as window` & hit Create
+6. Open Spotify as App
