@@ -1,22 +1,28 @@
 // Get webview element
 var webview = document.getElementById('webview');
 
+
+    
 webview.addEventListener('loadcommit', function() {
     webview.insertCSS({
         code: `
-        ._668f8eb097574762d66d361cc6d37850-scss {
+        ._668f8eb097574762d66d361cc6d37850-scss, .Root__ads-container {
             display: none !important;
         }
         `,
         runAt: 'document_start'
     });
 
-    webview.executeScript({
-        code: `
-        document.querySelector(".Root__ads-container").remove();
-        
-        `
-    })
+//     webview.executeScript({
+//         code: `
+//         // document.querySelector(".Root__ads-container").remove();
+//         var filter = {urls: ["*://audio-ak-spotify-com.akamaized.net/*"]};
+// var opt_extraInfoSpec = [];
+
+// chrome.webRequest.onBeforeRequest.addListener(
+//         callback, filter, opt_extraInfoSpec);
+//         `
+//     })
 
 });
 
@@ -113,6 +119,11 @@ webview.addEventListener('contentload', function () {
     webview.executeScript({
         // Send a Chrome runtime message every time the keydown event is fired within webview
         code: `window.addEventListener('keydown', function (e) {
+            webview.request.onBeforeRequest.addListener(
+                function(details) { return {cancel: true}; },
+                {urls: ["*://audio-ak-spotify-com.akamaized.net/*"]},
+                ["blocking"])
+            
             chrome.runtime.sendMessage({ event: 'keydown', params: { ctrlKey: e.ctrlKey, metaKey: e.metaKey, altKey: e.altKey, keyCode: e.keyCode } });
         });`});
 });

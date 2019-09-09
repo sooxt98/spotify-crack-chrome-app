@@ -1,16 +1,22 @@
 {
-   "app": {
-      "background": {
-         "pages": [ "html/embed.html" ],
-         "scripts": [ "js/background.js" ]
-      }
+
+   "background": {
+      "scripts": [ "js/background.js" ]
+      
    },
+   "content_scripts": [
+      {
+        "matches": ["https://open.spotify.com/*"], 
+        "css" : ["style.css"]
+      }
+  ],
+
    "description": "Spotify Crack!",
    "icons": {
       "128": "img/icon.png"
    },
    "manifest_version": 2,
-   "name": "Spotify",
-   "permissions": [ "webview", "fullscreen" ],
+   "name": "Spotify Crack",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*/*" ],
    "version": "1.0"
 }
