@@ -17,6 +17,6 @@
    },
    "manifest_version": 2,
    "name": "Spotify Crack",
-   "permissions": [ "webRequest", "webRequestBlocking", "*://open.spotify.com/*", "*://audio-ak-spotify-com.akamaized.net/*" ],
+   "permissions": [ "webRequest", "webRequestBlocking", "*://open.spotify.com/*", "*://audio-ak-spotify-com.akamaized.net/*", "http://*.scdn.co/*" ],
    "version": "1.0"
 }
