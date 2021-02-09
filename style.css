@@ -1,3 +1,3 @@
-button[title="Upgrade to Premium"], button[title="Effettua l'upgrade a Premium"], div[data-testid="test-ref-div"] {
+button[title*="Premium"], div[data-testid="test-ref-div"] {
     display:none !important;
 }
