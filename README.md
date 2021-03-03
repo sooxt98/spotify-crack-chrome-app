@@ -3,7 +3,7 @@
 > What's new: Removed all ads, skip ads & removed premium upgrade button 🎉
 
 
-![image](https://user-images.githubusercontent.com/13378059/64559212-58270800-d378-11e9-8280-47a9e051db8a.png)
+![image](https://user-images.githubusercontent.com/13378059/109779378-dc420f00-7c40-11eb-8542-e35e9ce022ed.png)
 
 
 ## How to install
