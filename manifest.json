@@ -17,6 +17,6 @@
    },
    "manifest_version": 2,
    "name": "Spotify Crack",
-   "permissions": [ "webRequest", "webRequestBlocking", "*://open.spotify.com/*", "*://audio-ak-spotify-com.akamaized.net/*", "https://*.googlesyndication.com/*", "*://audio-akp-quic-spotify-com.akamaized.net/*", "*://gae-spclient.spotify.com/*" ],
+   "permissions": [ "webRequest", "webRequestBlocking", "*://open.spotify.com/*", "*://audio-ak-spotify-com.akamaized.net/*", "https://*.googlesyndication.com/*", "*://audio-akp-quic-spotify-com.akamaized.net/*", "*://gae-spclient.spotify.com/*", "*://*.audio-fa.scdn.co/*"],
    "version": "1.0"
 }
