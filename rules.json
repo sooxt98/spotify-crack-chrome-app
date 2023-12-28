@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://audio-ak-spotify-com.akamaized.net/*",
+            "resourceTypes": [
+                "sub_frame",
+                "script",
+                "image",
+                "stylesheet",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://open.spotify.com/*",
+            "resourceTypes": [
+                "sub_frame",
+                "script",
+                "image",
+                "stylesheet",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "https://*.googlesyndication.com/*",
+            "resourceTypes": [
+                "sub_frame",
+                "script",
+                "image",
+                "stylesheet",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://audio-akp-quic-spotify-com.akamaized.net/*",
+            "resourceTypes": [
+                "sub_frame",
+                "script",
+                "image",
+                "stylesheet",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://gae-spclient.spotify.com/*",
+            "resourceTypes": [
+                "sub_frame",
+                "script",
+                "image",
+                "stylesheet",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*.audio-fa.scdn.co/*",
+            "resourceTypes": [
+                "sub_frame",
+                "script",
+                "image",
+                "stylesheet",
+                "object",
+                "xmlhttprequest",
+                "other"
+            ]
+        }
+    }
+]
